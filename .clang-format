@@ -1,0 +1,37 @@
+---
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+BasedOnStyle: LLVM
+
+AlignAfterOpenBracket: Align  # Align | AlwaysBreak
+
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveDeclarations: true
+AlignConsecutiveMacros: true
+AlignEscapedNewlines: DontAlign
+
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortBlocksOnASingleLine: Always
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse # WithoutElse
+AllowShortLoopsOnASingleLine: true
+
+AlwaysBreakAfterReturnType: None
+SpacesBeforeTrailingComments: 2
+
+# Example of usage:
+#BreakBeforeBraces: Custom
+#BraceWrapping:
+    #IndentBraces: false
+    #AfterEnum: false
+    #AfterStruct: false
+    #AfterFunction: false
+    #SplitEmptyFunction: false
+
+#ContinuationIndentWidth: 4 # if long line wraps, it is 4 space indent (default)
+
+ColumnLimit: 80
+IndentWidth: 8
+
+# EOF
+...
